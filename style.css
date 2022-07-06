@@ -55,7 +55,7 @@ body {
 }
 
 .donate-today-text {
-    font-size: 20px;
+    font-size: 26px;
     padding: 5px 150px;
     margin: 30px;
 }
@@ -71,8 +71,8 @@ body {
 
 .content-box {
     display: flex;
-    padding: 5px 100px;
-    align-items: center;
+    padding: 5px 80px;
+    position: center;
 }
 
 .ten {
@@ -111,7 +111,7 @@ body {
 
 hr {
     height: 1px;
-    border-width: 1px;
+    width: 50%;
     color: gray;
     background-color: rgb(182, 180, 180);
 }
