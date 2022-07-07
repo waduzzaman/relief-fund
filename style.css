@@ -24,7 +24,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5px;
+    padding: 5px 10px 50px;
     Margin: 10px 50px;
     border-width: 5px;
 }
@@ -43,15 +43,17 @@ body {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
-    padding: 5px 30px;
+    padding: 10px 20px;
+    padding-top: 10px;
     border-radius: 5px;
     margin-top: 100px;
 }
 
-#donate-today {
+.donate-today {
     text-align: center;
     font-size: 35px;
     margin: 30px;
+    padding-top: 10px;
 }
 
 .donate-today-text {
@@ -60,60 +62,30 @@ body {
     margin: 30px;
 }
 
-.content-box-flex {
-    width: 20px;
-    height: 10px;
-    padding: 5px;
-    border: 5px solid rgb(253, 250, 250);
-    text-align: center;
-    background-color: gray;
+.amount-box {
+    padding: 100px;
+    background-color: #FAFAFA;
+    width: 100%;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.twenty {
+    background-color: #FFEEEE;
+    color: #FF5959;
 }
 
 .content-box {
     display: flex;
-    padding: 5px 80px;
+    padding: 5px 100px;
     position: center;
-}
-
-.ten {
-    background-color: rgb(247, 243, 243);
-    margin: 10px;
-    height: 80px;
-}
-
-.twenty {
-    text-align: center;
-    font-size: 30px;
-    border: 2px solid #FF5959;
-    background-color: #FFEEEE;
-    color: #FF5959;
-    margin: 10px;
-    height: 80px;
-}
-
-.fifty {
-    background-color: rgb(247, 243, 243);
-    margin: 10px;
-    height: 80px;
-}
-
-.hundred {
-    background-color: rgb(247, 243, 243);
-    margin: 10px;
-    height: 80px;
-}
-
-.five-hundred {
-    background-color: rgb(247, 243, 243);
-    margin: 10px;
-    height: 80px;
 }
 
 hr {
     height: 1px;
     width: 50%;
-    color: gray;
-    background-color: rgb(182, 180, 180);
+    color: rgb(230, 223, 223);
+    background-color: rgb(248, 244, 244);
 }
 
 .svg-img {
@@ -126,6 +98,9 @@ hr {
 .donation-plan {
     text-align: center;
     font-size: 35px;
+    margin-top: 50px;
+    padding-top: 50px;
+    ;
 }
 
 .donation-type {
@@ -171,7 +146,7 @@ footer {
 
 .footer-header {
     letter-spacing: 0.5px;
-    font-family: "Lobster Two";
+    font-family: "Lobster";
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -216,4 +191,34 @@ footer {
     color: white;
     padding-left: 0px;
     border-radius: 5px;
+}
+
+.read-more-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    position: left;
+    margin: 10px;
+}
+
+.activities-title {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.activities-text {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.activities {
+    display: flex;
+    padding: 5px 80px;
+    position: center;
+}
+
+.relief-camp {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
 }
